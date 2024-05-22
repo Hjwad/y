@@ -7,7 +7,7 @@ from config import BANNED_USERS, START_IMG_URL
 from strings import get_command, get_string, helpers
 from Auput import app
 from Auput.misc import SUDOERS
-from Auput.utils import first_page, second_page
+from Auput.utils.inline.help import first_page, second_page
 from Auput.utils.database import get_lang, is_commanddelete_on
 from Auput.utils.decorators.language import (LanguageStart,
                                                   languageCB)
